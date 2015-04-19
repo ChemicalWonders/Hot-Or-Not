@@ -13,7 +13,8 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *ImageDisplay;
 
--(void) DisplayImage;
+//-(void) DisplayImage;
+
 -(IBAction)RateUp;
 -(IBAction)Skip;
 

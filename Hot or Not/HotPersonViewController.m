@@ -18,7 +18,12 @@
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
-    
+    /*
+    PFImageView *creature = [[PFImageView alloc] init];
+    creature.image = [UIImage imageNamed:@"file"];
+    creature.file = (PFFile *) _ImageHotPerson;
+    [creature loadInBackground];
+    */
     [super viewDidLoad];
 }
 
@@ -33,5 +38,7 @@
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
+
+
 
 @end

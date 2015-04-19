@@ -11,4 +11,6 @@
 
 @interface HotPersonViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *ImageHotPerson;
+
 @end
