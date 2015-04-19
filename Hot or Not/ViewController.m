@@ -28,6 +28,31 @@
     [self presentViewController:picker2 animated:YES completion:NULL];
 }
 
+-(IBAction)ContinueWithImage{
+    
+    NSData *imageData = UIImagePNGRepresentation(imageView.image);
+    PFFile *file = [PFFile fileWithData:imageData];
+    PFObject *userPhoto = [PFObject objectWithClassName:@"UserPhoto"];
+    userPhoto[@"imageString"] = @"ProfilePic";
+    userPhoto[@"imageFile"] = file;
+    userPhoto[@"imageGender"] = _gender;
+    userPhoto[@"imageLikes"] = @0;
+    [userPhoto saveInBackground];
+     
+    /*
+    PFObject *gameScore = [PFObject objectWithClassName:@"GameScore"];
+    gameScore[@"score"] = @1337;
+    gameScore[@"playerName"] = @"Sean Plott";
+    gameScore[@"cheatMode"] = @NO;
+    [gameScore saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+        if (succeeded) {
+            // The object has been saved.
+        } else {
+            // There was a problem, check error.description
+        }
+    }];*/
+}
+
 -(void) imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info{
     image = [info objectForKey:UIImagePickerControllerOriginalImage];
     [imageView setImage:image];
