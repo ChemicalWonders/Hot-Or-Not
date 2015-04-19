@@ -33,6 +33,9 @@
 		FC7BD96A1AE33773002D6E64 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7BD9691AE33773002D6E64 /* SystemConfiguration.framework */; };
 		FC7BD96C1AE33791002D6E64 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7BD96B1AE33791002D6E64 /* libz.dylib */; };
 		FC7BD96E1AE337A5002D6E64 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7BD96D1AE337A5002D6E64 /* libsqlite3.dylib */; };
+		FCD7FB171AE40903007F933B /* tfss-05776168-01a9-47ff-9218-ac3577467c9e.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD7FB161AE40903007F933B /* tfss-05776168-01a9-47ff-9218-ac3577467c9e.png */; };
+		FCD7FB191AE40A3E007F933B /* tfss-c22dcb3c-5d8a-4d39-a827-9d1ef6097a86.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD7FB181AE40A3E007F933B /* tfss-c22dcb3c-5d8a-4d39-a827-9d1ef6097a86.png */; };
+		FCD7FB1B1AE412E1007F933B /* Wonder-50-Chili-Pepper-Static-Image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCD7FB1A1AE412E1007F933B /* Wonder-50-Chili-Pepper-Static-Image.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +82,9 @@
 		FC7BD9691AE33773002D6E64 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		FC7BD96B1AE33791002D6E64 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		FC7BD96D1AE337A5002D6E64 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		FCD7FB161AE40903007F933B /* tfss-05776168-01a9-47ff-9218-ac3577467c9e.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tfss-05776168-01a9-47ff-9218-ac3577467c9e.png"; sourceTree = "<group>"; };
+		FCD7FB181AE40A3E007F933B /* tfss-c22dcb3c-5d8a-4d39-a827-9d1ef6097a86.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tfss-c22dcb3c-5d8a-4d39-a827-9d1ef6097a86.png"; sourceTree = "<group>"; };
+		FCD7FB1A1AE412E1007F933B /* Wonder-50-Chili-Pepper-Static-Image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Wonder-50-Chili-Pepper-Static-Image.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +121,10 @@
 		FC2528741AE3638B00DBF9AE /* Pictures */ = {
 			isa = PBXGroup;
 			children = (
+				FCD7FB1A1AE412E1007F933B /* Wonder-50-Chili-Pepper-Static-Image.jpg */,
 				FC57B3301AE3DE9600875B06 /* Russell.jpg */,
+				FCD7FB161AE40903007F933B /* tfss-05776168-01a9-47ff-9218-ac3577467c9e.png */,
+				FCD7FB181AE40A3E007F933B /* tfss-c22dcb3c-5d8a-4d39-a827-9d1ef6097a86.png */,
 				FC2528721AE3637000DBF9AE /* IMG_0369.jpg */,
 			);
 			name = Pictures;
@@ -272,7 +281,10 @@
 				FC7BBBCE1AE320A700126E57 /* Main.storyboard in Resources */,
 				FC2528731AE3637000DBF9AE /* IMG_0369.jpg in Resources */,
 				FC1594BA1AE36F8700F5E7F0 /* Info.plist in Resources */,
+				FCD7FB1B1AE412E1007F933B /* Wonder-50-Chili-Pepper-Static-Image.jpg in Resources */,
+				FCD7FB171AE40903007F933B /* tfss-05776168-01a9-47ff-9218-ac3577467c9e.png in Resources */,
 				FC7BBBD31AE320A700126E57 /* LaunchScreen.xib in Resources */,
+				FCD7FB191AE40A3E007F933B /* tfss-c22dcb3c-5d8a-4d39-a827-9d1ef6097a86.png in Resources */,
 				FC2528791AE3675700DBF9AE /* Default-568h@2x.png in Resources */,
 				FC57B3311AE3DE9600875B06 /* Russell.jpg in Resources */,
 				FC7BBBD01AE320A700126E57 /* Images.xcassets in Resources */,

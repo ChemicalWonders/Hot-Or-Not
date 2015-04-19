@@ -31,7 +31,6 @@
 -(IBAction)ContinueWithImage{
     
     NSData *imageData = UIImagePNGRepresentation(imageView.image);
-    
     PFFile *file = [PFFile fileWithData:imageData];
     
     PFObject *userPhoto = [PFObject objectWithClassName:@"UserPhoto"];

@@ -16,13 +16,6 @@
 
 @implementation RateViewController
 
--(IBAction) RateUp{
-    
-    
-    
-}
-
--(IBAction) Skip {}
 
 -(void) DisplayImage {
     NSData *imageData = UIImagePNGRepresentation(_ImageDisplay.image);
