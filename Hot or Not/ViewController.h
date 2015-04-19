@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Parse/Parse.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController< UIImagePickerControllerDelegate, UINavigationControllerDelegate>{
+    UIImagePickerController *picker;
+    UIImagePickerController *picker2;
+    UIImage *image;
+    IBOutlet UIImageView *imageView;
+}
 
-
+-(IBAction)TakePhoto;
+-(IBAction)ChooseExisting;
 @end
-

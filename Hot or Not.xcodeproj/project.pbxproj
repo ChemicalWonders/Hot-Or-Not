@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC7BBBC51AE320A700126E57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7BBBC41AE320A700126E57 /* main.m */; };
+		FC1594BA1AE36F8700F5E7F0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC1594B91AE36F8700F5E7F0 /* Info.plist */; };
+		FC2528731AE3637000DBF9AE /* IMG_0369.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC2528721AE3637000DBF9AE /* IMG_0369.jpg */; };
+		FC2528791AE3675700DBF9AE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC2528781AE3675700DBF9AE /* Default-568h@2x.png */; };
+		FC3946E61AE370D100BD983E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3946E51AE370D100BD983E /* main.m */; };
 		FC7BBBC81AE320A700126E57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7BBBC71AE320A700126E57 /* AppDelegate.m */; };
 		FC7BBBCB1AE320A700126E57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7BBBCA1AE320A700126E57 /* ViewController.m */; };
 		FC7BBBCE1AE320A700126E57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7BBBCC1AE320A700126E57 /* Main.storyboard */; };
 		FC7BBBD01AE320A700126E57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC7BBBCF1AE320A700126E57 /* Images.xcassets */; };
 		FC7BBBD31AE320A700126E57 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7BBBD11AE320A700126E57 /* LaunchScreen.xib */; };
 		FC7BBBDF1AE320A700126E57 /* Hot_or_NotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7BBBDE1AE320A700126E57 /* Hot_or_NotTests.m */; };
+		FC7BD9561AE33649002D6E64 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7BD9551AE33649002D6E64 /* Parse.framework */; };
+		FC7BD9581AE3365A002D6E64 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7BD9571AE3365A002D6E64 /* Bolts.framework */; };
+		FC7BD95B1AE336EC002D6E64 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7BD9591AE336EC002D6E64 /* AudioToolbox.framework */; };
+		FC7BD95C1AE336EC002D6E64 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7BD95A1AE336EC002D6E64 /* CFNetwork.framework */; };
+		FC7BD95E1AE336F5002D6E64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7BD95D1AE336F5002D6E64 /* CoreGraphics.framework */; };
+		FC7BD9601AE33735002D6E64 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7BD95F1AE33735002D6E64 /* CoreLocation.framework */; };
+		FC7BD9621AE33744002D6E64 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7BD9611AE33744002D6E64 /* MobileCoreServices.framework */; };
+		FC7BD9641AE3374D002D6E64 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7BD9631AE3374D002D6E64 /* QuartzCore.framework */; };
+		FC7BD9661AE33759002D6E64 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7BD9651AE33759002D6E64 /* Security.framework */; };
+		FC7BD96A1AE33773002D6E64 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7BD9691AE33773002D6E64 /* SystemConfiguration.framework */; };
+		FC7BD96C1AE33791002D6E64 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7BD96B1AE33791002D6E64 /* libz.dylib */; };
+		FC7BD96E1AE337A5002D6E64 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7BD96D1AE337A5002D6E64 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,9 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC1594B91AE36F8700F5E7F0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2528721AE3637000DBF9AE /* IMG_0369.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0369.jpg; sourceTree = "<group>"; };
+		FC2528781AE3675700DBF9AE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FC3946E51AE370D100BD983E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FC7BBBBF1AE320A700126E57 /* Hot or Not.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hot or Not.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC7BBBC31AE320A700126E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC7BBBC41AE320A700126E57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FC7BBBC61AE320A700126E57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FC7BBBC71AE320A700126E57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FC7BBBC91AE320A700126E57 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -38,8 +55,20 @@
 		FC7BBBCF1AE320A700126E57 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FC7BBBD21AE320A700126E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FC7BBBD81AE320A700126E57 /* Hot or NotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hot or NotTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC7BBBDD1AE320A700126E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC7BBBDD1AE320A700126E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Hot or NotTests/Info.plist"; sourceTree = SOURCE_ROOT; };
 		FC7BBBDE1AE320A700126E57 /* Hot_or_NotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hot_or_NotTests.m; sourceTree = "<group>"; };
+		FC7BD9551AE33649002D6E64 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		FC7BD9571AE3365A002D6E64 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		FC7BD9591AE336EC002D6E64 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FC7BD95A1AE336EC002D6E64 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FC7BD95D1AE336F5002D6E64 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC7BD95F1AE33735002D6E64 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FC7BD9611AE33744002D6E64 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FC7BD9631AE3374D002D6E64 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FC7BD9651AE33759002D6E64 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FC7BD9691AE33773002D6E64 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FC7BD96B1AE33791002D6E64 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		FC7BD96D1AE337A5002D6E64 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +76,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC7BD96E1AE337A5002D6E64 /* libsqlite3.dylib in Frameworks */,
+				FC7BD96C1AE33791002D6E64 /* libz.dylib in Frameworks */,
+				FC7BD96A1AE33773002D6E64 /* SystemConfiguration.framework in Frameworks */,
+				FC7BD9661AE33759002D6E64 /* Security.framework in Frameworks */,
+				FC7BD9641AE3374D002D6E64 /* QuartzCore.framework in Frameworks */,
+				FC7BD9621AE33744002D6E64 /* MobileCoreServices.framework in Frameworks */,
+				FC7BD9601AE33735002D6E64 /* CoreLocation.framework in Frameworks */,
+				FC7BD95E1AE336F5002D6E64 /* CoreGraphics.framework in Frameworks */,
+				FC7BD95B1AE336EC002D6E64 /* AudioToolbox.framework in Frameworks */,
+				FC7BD95C1AE336EC002D6E64 /* CFNetwork.framework in Frameworks */,
+				FC7BD9561AE33649002D6E64 /* Parse.framework in Frameworks */,
+				FC7BD9581AE3365A002D6E64 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +101,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC2528741AE3638B00DBF9AE /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				FC2528721AE3637000DBF9AE /* IMG_0369.jpg */,
+			);
+			name = Pictures;
+			path = "Hot or Not";
+			sourceTree = "<group>";
+		};
 		FC7BBBB61AE320A700126E57 = {
 			isa = PBXGroup;
 			children = (
+				FC2528781AE3675700DBF9AE /* Default-568h@2x.png */,
+				FC2528741AE3638B00DBF9AE /* Pictures */,
+				FC7BD96D1AE337A5002D6E64 /* libsqlite3.dylib */,
+				FC7BD96B1AE33791002D6E64 /* libz.dylib */,
+				FC7BD9691AE33773002D6E64 /* SystemConfiguration.framework */,
+				FC7BD9651AE33759002D6E64 /* Security.framework */,
+				FC7BD9631AE3374D002D6E64 /* QuartzCore.framework */,
+				FC7BD9611AE33744002D6E64 /* MobileCoreServices.framework */,
+				FC7BD95F1AE33735002D6E64 /* CoreLocation.framework */,
+				FC7BD95D1AE336F5002D6E64 /* CoreGraphics.framework */,
+				FC7BD9591AE336EC002D6E64 /* AudioToolbox.framework */,
+				FC7BD95A1AE336EC002D6E64 /* CFNetwork.framework */,
+				FC7BD9571AE3365A002D6E64 /* Bolts.framework */,
 				FC7BBBC11AE320A700126E57 /* Hot or Not */,
 				FC7BBBDB1AE320A700126E57 /* Hot or NotTests */,
 				FC7BBBC01AE320A700126E57 /* Products */,
+				FC7BD9551AE33649002D6E64 /* Parse.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +145,8 @@
 		FC7BBBC11AE320A700126E57 /* Hot or Not */ = {
 			isa = PBXGroup;
 			children = (
+				FC3946E51AE370D100BD983E /* main.m */,
+				FC1594B91AE36F8700F5E7F0 /* Info.plist */,
 				FC7BBBC61AE320A700126E57 /* AppDelegate.h */,
 				FC7BBBC71AE320A700126E57 /* AppDelegate.m */,
 				FC7BBBC91AE320A700126E57 /* ViewController.h */,
@@ -88,35 +154,17 @@
 				FC7BBBCC1AE320A700126E57 /* Main.storyboard */,
 				FC7BBBCF1AE320A700126E57 /* Images.xcassets */,
 				FC7BBBD11AE320A700126E57 /* LaunchScreen.xib */,
-				FC7BBBC21AE320A700126E57 /* Supporting Files */,
 			);
 			path = "Hot or Not";
-			sourceTree = "<group>";
-		};
-		FC7BBBC21AE320A700126E57 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				FC7BBBC31AE320A700126E57 /* Info.plist */,
-				FC7BBBC41AE320A700126E57 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		FC7BBBDB1AE320A700126E57 /* Hot or NotTests */ = {
 			isa = PBXGroup;
 			children = (
+				FC7BBBDD1AE320A700126E57 /* Info.plist */,
 				FC7BBBDE1AE320A700126E57 /* Hot_or_NotTests.m */,
-				FC7BBBDC1AE320A700126E57 /* Supporting Files */,
 			);
 			path = "Hot or NotTests";
-			sourceTree = "<group>";
-		};
-		FC7BBBDC1AE320A700126E57 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				FC7BBBDD1AE320A700126E57 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,10 +216,15 @@
 				TargetAttributes = {
 					FC7BBBBE1AE320A700126E57 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 6F8XFHJ992;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
 					};
 					FC7BBBD71AE320A700126E57 = {
 						CreatedOnToolsVersion = 6.3;
-						TestTargetID = FC7BBBBE1AE320A700126E57;
 					};
 				};
 			};
@@ -200,7 +253,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC7BBBCE1AE320A700126E57 /* Main.storyboard in Resources */,
+				FC2528731AE3637000DBF9AE /* IMG_0369.jpg in Resources */,
+				FC1594BA1AE36F8700F5E7F0 /* Info.plist in Resources */,
 				FC7BBBD31AE320A700126E57 /* LaunchScreen.xib in Resources */,
+				FC2528791AE3675700DBF9AE /* Default-568h@2x.png in Resources */,
 				FC7BBBD01AE320A700126E57 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,8 +276,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC7BBBCB1AE320A700126E57 /* ViewController.m in Sources */,
+				FC3946E61AE370D100BD983E /* main.m in Sources */,
 				FC7BBBC81AE320A700126E57 /* AppDelegate.m in Sources */,
-				FC7BBBC51AE320A700126E57 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,9 +403,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Hot or Not/Info.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Hot or NotTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -357,16 +419,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Hot or Not/Info.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Hot or NotTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		FC7BBBE61AE320A700126E57 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -378,14 +445,12 @@
 				INFOPLIST_FILE = "Hot or NotTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hot or Not.app/Hot or Not";
 			};
 			name = Debug;
 		};
 		FC7BBBE71AE320A700126E57 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -393,7 +458,6 @@
 				INFOPLIST_FILE = "Hot or NotTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hot or Not.app/Hot or Not";
 			};
 			name = Release;
 		};
@@ -416,6 +480,7 @@
 				FC7BBBE41AE320A700126E57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC7BBBE51AE320A700126E57 /* Build configuration list for PBXNativeTarget "Hot or NotTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +489,7 @@
 				FC7BBBE71AE320A700126E57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
