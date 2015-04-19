@@ -31,11 +31,12 @@
 -(IBAction)ContinueWithImage{
     
     NSData *imageData = UIImagePNGRepresentation(imageView.image);
+    
     PFFile *file = [PFFile fileWithData:imageData];
+    
     PFObject *userPhoto = [PFObject objectWithClassName:@"UserPhoto"];
     userPhoto[@"imageString"] = @"ProfilePic";
     userPhoto[@"imageFile"] = file;
-    userPhoto[@"imageGender"] = _gender;
     userPhoto[@"imageLikes"] = @0;
     [userPhoto saveInBackground];
      

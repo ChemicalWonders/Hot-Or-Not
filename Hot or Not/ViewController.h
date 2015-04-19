@@ -16,8 +16,6 @@
     IBOutlet UIImageView *imageView;
 }
 
-@property (weak, nonatomic) IBOutlet UITextField *gender;
-
 -(IBAction)TakePhoto;
 -(IBAction)ChooseExisting;
 -(IBAction)ContinueWithImage;

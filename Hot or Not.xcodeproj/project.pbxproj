@@ -11,6 +11,9 @@
 		FC2528731AE3637000DBF9AE /* IMG_0369.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC2528721AE3637000DBF9AE /* IMG_0369.jpg */; };
 		FC2528791AE3675700DBF9AE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC2528781AE3675700DBF9AE /* Default-568h@2x.png */; };
 		FC3946E61AE370D100BD983E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3946E51AE370D100BD983E /* main.m */; };
+		FC57B3181AE3ABA000875B06 /* RateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC57B3171AE3ABA000875B06 /* RateViewController.m */; };
+		FC57B31A1AE3B7CB00875B06 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC57B3191AE3B7CB00875B06 /* ParseUI.framework */; };
+		FC57B32F1AE3CEDF00875B06 /* HotPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC57B32E1AE3CEDF00875B06 /* HotPersonViewController.m */; };
 		FC7BBBC81AE320A700126E57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7BBBC71AE320A700126E57 /* AppDelegate.m */; };
 		FC7BBBCB1AE320A700126E57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7BBBCA1AE320A700126E57 /* ViewController.m */; };
 		FC7BBBCE1AE320A700126E57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7BBBCC1AE320A700126E57 /* Main.storyboard */; };
@@ -46,6 +49,11 @@
 		FC2528721AE3637000DBF9AE /* IMG_0369.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0369.jpg; sourceTree = "<group>"; };
 		FC2528781AE3675700DBF9AE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		FC3946E51AE370D100BD983E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC3946E71AE3A90400BD983E /* RateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RateViewController.h; sourceTree = "<group>"; };
+		FC57B3171AE3ABA000875B06 /* RateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateViewController.m; sourceTree = "<group>"; };
+		FC57B3191AE3B7CB00875B06 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		FC57B32D1AE3CEDF00875B06 /* HotPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotPersonViewController.h; sourceTree = "<group>"; };
+		FC57B32E1AE3CEDF00875B06 /* HotPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotPersonViewController.m; sourceTree = "<group>"; };
 		FC7BBBBF1AE320A700126E57 /* Hot or Not.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hot or Not.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC7BBBC61AE320A700126E57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FC7BBBC71AE320A700126E57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -88,6 +96,7 @@
 				FC7BD95C1AE336EC002D6E64 /* CFNetwork.framework in Frameworks */,
 				FC7BD9561AE33649002D6E64 /* Parse.framework in Frameworks */,
 				FC7BD9581AE3365A002D6E64 /* Bolts.framework in Frameworks */,
+				FC57B31A1AE3B7CB00875B06 /* ParseUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +122,7 @@
 		FC7BBBB61AE320A700126E57 = {
 			isa = PBXGroup;
 			children = (
+				FC57B3191AE3B7CB00875B06 /* ParseUI.framework */,
 				FC2528781AE3675700DBF9AE /* Default-568h@2x.png */,
 				FC2528741AE3638B00DBF9AE /* Pictures */,
 				FC7BD96D1AE337A5002D6E64 /* libsqlite3.dylib */,
@@ -145,15 +155,19 @@
 		FC7BBBC11AE320A700126E57 /* Hot or Not */ = {
 			isa = PBXGroup;
 			children = (
-				FC3946E51AE370D100BD983E /* main.m */,
-				FC1594B91AE36F8700F5E7F0 /* Info.plist */,
 				FC7BBBC61AE320A700126E57 /* AppDelegate.h */,
 				FC7BBBC71AE320A700126E57 /* AppDelegate.m */,
+				FC7BBBCF1AE320A700126E57 /* Images.xcassets */,
+				FC1594B91AE36F8700F5E7F0 /* Info.plist */,
+				FC7BBBD11AE320A700126E57 /* LaunchScreen.xib */,
+				FC3946E51AE370D100BD983E /* main.m */,
+				FC7BBBCC1AE320A700126E57 /* Main.storyboard */,
+				FC57B32D1AE3CEDF00875B06 /* HotPersonViewController.h */,
+				FC57B32E1AE3CEDF00875B06 /* HotPersonViewController.m */,
+				FC3946E71AE3A90400BD983E /* RateViewController.h */,
+				FC57B3171AE3ABA000875B06 /* RateViewController.m */,
 				FC7BBBC91AE320A700126E57 /* ViewController.h */,
 				FC7BBBCA1AE320A700126E57 /* ViewController.m */,
-				FC7BBBCC1AE320A700126E57 /* Main.storyboard */,
-				FC7BBBCF1AE320A700126E57 /* Images.xcassets */,
-				FC7BBBD11AE320A700126E57 /* LaunchScreen.xib */,
 			);
 			path = "Hot or Not";
 			sourceTree = "<group>";
@@ -277,6 +291,8 @@
 			files = (
 				FC7BBBCB1AE320A700126E57 /* ViewController.m in Sources */,
 				FC3946E61AE370D100BD983E /* main.m in Sources */,
+				FC57B32F1AE3CEDF00875B06 /* HotPersonViewController.m in Sources */,
+				FC57B3181AE3ABA000875B06 /* RateViewController.m in Sources */,
 				FC7BBBC81AE320A700126E57 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
